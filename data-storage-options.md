@@ -1,10 +1,19 @@
-Considerations include
+# What is cloud storage?
+* Each VM has a boot persistent disk (PD) that contains the operating system
+  * Not best practice to place non-system data on the boot disk
+* When apps require additional storage space add one or more additional storage options
+  * Cloud Storage buckets: Affordable object storage
+  * Additional persistent disk(s): Efficient, reliable block storage.
+  * Local SSD: High performance, transient, local block storage.
+  * Filestore: High performance file storage for Google Cloud users.
+
+## Considerations include
 * Product choice
   * (e.g., Cloud SQL, BigQuery, Firestore, Spanner, Bigtable) 
 * Choosing storage options 
   * (e.g., Zonal persistent disk, Regional balanced persistent disk, standard, Nearline, Coldline, Archive)
 
-Comparing storage options: use cases
+## Comparing storage options: use cases
 |# |Firestore| Bigtable| Cloud Storage| Cloud SQL| Cloud Spanner| BigQuery|
 |--|---------|---------|--------------|----------|--------------|---------|
 |Type| No SQL Document|No SQL Wide Column|Blob Store|Relational SQL for OTLP|Relational SQL for OTLP|Relational SQL for OTAP|
