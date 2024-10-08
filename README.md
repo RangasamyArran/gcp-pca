@@ -10,4 +10,9 @@
   * [Connectivity | Cloud VPN | Interconnect | Peering](https://cloud.google.com/network-connectivity/docs/concepts)
   * [Autoscaler](https://cloud.google.com/compute/docs/autoscaler)
   * [GKE overview](https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview)
-
+* Case Study
+  * [EHR Healthcare](https://services.google.com/fh/files/blogs/master_case_study_ehr_healthcare.pdf)
+  * [Helicopter Racing League](https://services.google.com/fh/files/blogs/master_case_study_helicopter_racing_league.pdf)
+  * [Mountkirk Games](https://services.google.com/fh/files/blogs/master_case_study_mountkirk_games.pdf)
+  * [TerramEarth](https://services.google.com/fh/files/blogs/master_case_study_terramearth.pdf)
+  
