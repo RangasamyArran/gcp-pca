@@ -1,4 +1,9 @@
 # GCP-PCA
+
+My personal notes for preparing for Google Professional Architect exam. Notes are referred/copied from GCP official [Documentation](https://cloud.google.com/docs)
+
+Additional reference Notes: 
+
 ## Preparing for Google Cloud Architect.
 * Learning resources
   * [The Cloud Girl]( https://github.com/priyankavergadia/GCPSketchnote)
