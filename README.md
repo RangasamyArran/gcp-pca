@@ -1,4 +1,4 @@
-# GCP-PCA
+# [GCP-PCA](https://cloud.google.com/learn/certification/guides/professional-cloud-architect)
 
 My personal notes for preparing for Google Professional Architect exam. Notes are referred/copied from GCP official [Documentation](https://cloud.google.com/docs)
 
