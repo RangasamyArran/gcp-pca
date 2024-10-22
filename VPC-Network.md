@@ -1,10 +1,24 @@
-# VPC Network Concepts
+# [VPC Network Concepts](https://cloud.google.com/vpc/docs/overview)
 ## VPC networks
-* Created within projects, which means there is no cross-project communication 
-by default. 
-* Global resources, for example: VM in US can communicate with a VM in APAC
-* Private RFC 1918 IP range
-* Can be non RFC 1918 IP range
+
+* Provides connectivity for your Compute Engine virtual machine (VM) instances, including Google  Kubernetes Engine (GKE) clusters, serverless workloads, and other Google Cloud products built on Compute Engine VMs.
+* Offers built-in internal passthrough Network Load Balancers and proxy systems for internal Application Load Balancers.
+* Connects to on-premises networks by using Cloud VPN tunnels and VLAN attachments for Cloud Interconnect.
+* Distributes traffic from Google Cloud external load balancers to backends.
+
+## Firewall rules
+Firewall rules let you control which packets are allowed to travel to which destinations. Every VPC network has two implied firewall rules that block all incoming connections and allow all outgoing connections.
+
+The default network has additional firewall rules, including the default-allow-internal rule, which permit communication among instances in the network.
+
+## Routes
+* Routes tell VM instances and the VPC network how to send traffic from an instance to a destination, either inside the network or outside of Google Cloud.
+* Each VPC network comes with some system-generated routes to route traffic among its subnets and send traffic from eligible instances to the internet
+
+## Forwarding rules
+* While routes govern traffic leaving an instance, forwarding rules direct traffic to a Google Cloud resource in a VPC network based on IP address, protocol, and port.
+
+
 ### Subnets
 * Are part of a VPC network
 * Regional objects
